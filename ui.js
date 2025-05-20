@@ -264,9 +264,9 @@ function renderAnnouncements() {
 
 function getBadgeText(badgeType) {
     switch(badgeType) {
-        case 'urgent': return '紧急';
-        case 'warning': return '警告';
-        case 'info': return '信息';
+        case 'urgent': return 'Urgente';
+        case 'warning': return 'Aviso';
+        case 'info': return 'Informação';
         default: return '';
     }
 }
