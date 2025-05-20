@@ -354,7 +354,7 @@ function renderCategoryTabs() {
     });
     
     elements.categoryTabsContainer.innerHTML = `
-        <div class="category-tab active" data-category="全部">全部 (${getKnowledgeBase().items.length})</div>
+        <div class="category-tab active" data-category="全部">Todos (${getKnowledgeBase().items.length})</div>
         ${categories.map(category => `
             <div class="category-tab" data-category="${category}">
                 ${category} (${categoryCounts[category] || 0})
