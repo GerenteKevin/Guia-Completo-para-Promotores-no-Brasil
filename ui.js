@@ -151,7 +151,7 @@ function renderAnnouncements() {
         elements.announcementsList.innerHTML = `
             <div class="empty-announcement">
                 <i class="fas fa-info-circle"></i>
-                暂无公告，${isEditMode ? '点击底部按钮添加' : '请等待管理员发布'}
+                Nenhum anúncio ainda，${isEditMode ? 'Clique no botão inferior para adicionar' : 'Aguarde o administrador publicar'}
             </div>
         `;
         elements.announcementNavDots.innerHTML = '';
