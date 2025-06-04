@@ -292,7 +292,7 @@ function renderKnowledgeItems(category = null) {
         elements.knowledgeItemsContainer.innerHTML = `
             <div class="empty-state">
                 <i class="fas fa-info-circle" style="font-size: 2rem; margin-bottom: 10px;"></i>
-                <p>${category ? `当前分类"${category}"下没有知识条目` : '知识库中还没有内容'}</p>
+                <p>${category ? `Não há nenhuma entrada de conhecimento na categoria atual "${category}"`: 'Ainda não há conteúdo na base de conhecimento'}</p>
                 ${isEditMode ? '<p>点击右下角"+"按钮添加新知识</p>' : ''}
             </div>
         `;
